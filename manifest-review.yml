@@ -2,6 +2,5 @@
 applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
-  random-route: true
-  env:
-    WELCOME_MESSAGE: Hello from Cloud Foundry
+  routes:
+  - route: pal-tracker-delightful-wildebeest-review.cfapps.io
