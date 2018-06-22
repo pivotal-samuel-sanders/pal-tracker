@@ -4,3 +4,5 @@ applications:
   path: build/libs/pal-tracker.jar
   routes:
   - route: pal-tracker-delightful-wildebeest-review.cfapps.io
+  services:
+  - tracker-database
